@@ -84,7 +84,7 @@ def read_cyclus_file(filename):
   lines = file.readlines()
   l = len(lines) -1
 
-  cyclus_time  = np.empty(l)
+  cyclus_time  = np.lc(l)
   cyclus_in    = np.empty(l)
   cyclus_out   = np.empty(l)
 
