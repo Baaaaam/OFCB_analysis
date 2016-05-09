@@ -33,9 +33,9 @@ plot '/Users/mouginot/work/OFCB/CLASS_BENCH/reactors/test1/data/bench_uox_test01
 
 set output 'Storage_U8_CYCLUS_t1x2_vs_t2.png';
 plot '/Users/mouginot/work/OFCB/cyclus/input/OFCB/1/UnBatched/Output.dat' \
-          using 1:(2*$8) title '(CLASS\_t1)x2' with lines,\
+          using 1:(2*$8) title '(Cyclus\_t1)x2' with lines,\
      '/Users/mouginot/work/OFCB/cyclus/input/OFCB/2/UnBatched/Output.dat' \
-          using 1:8 title 'CLASS\_t2' with lines
+          using 1:8 title 'Cyclus\_t2' with lines
 
 
 set output 'Storage_U8_Batched.png';
