@@ -20,7 +20,9 @@ set key width 2
 plot '/Users/mouginot/work/OFCB/cyclus/input/OFCB/4/UnBatched/Output.dat' \
           using 1:8 title 'CYCLUS' with lines,\
      '/Users/mouginot/work/OFCB/CLASS_BENCH/reactors/test4/data/bench_uox_test04.tab'\
-          using 1:24 title 'CLASS' with lines
+          using 1:24 title 'CLASS' with lines,\
+     '/Users/mouginot/work/OFCB/CLASS_calculation/4/ReadRootOuput.dat'\
+          using 1:8 title 'CLASS\_BaM' with lines
 
 
 
